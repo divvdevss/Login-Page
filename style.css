@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+
+.Inputs{
+  margin-left: 20px;
+}
+
+.Button{
+  margin-right: 20px;
+}
